@@ -1,3 +1,6 @@
+// If we want to do a^p we first convert the p in its binary form 
+// then write a^p = a^p1 * a^p2 * a^p3 ... where p1 + p2 + p3 ... = p ... and all of those are distinct power of twos.
+// now we can find this in logp
 #include <bits/stdc++.h>
 
 using namespace std;
